@@ -1,0 +1,167 @@
+.form-tu-thien {
+  padding: 0 1.5rem; }
+  .form-tu-thien .title {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+    .form-tu-thien .title h1 {
+      font-size: 3.5rem;
+      color: #666;
+      font-weight: bold; }
+  .form-tu-thien .row {
+    align-items: center; }
+  .form-tu-thien .form_traotuthien {
+    background-size: cover;
+    padding: 4rem 3rem;
+    background-attachment: fixed; }
+    .form-tu-thien .form_traotuthien .form-group {
+      margin: 2rem 0; }
+    .form-tu-thien .form_traotuthien .form_traott .custom-select-tt {
+      width: 100%;
+      border: 1px solid #ccc;
+      color: #666;
+      background-color: #fff;
+      padding: .5rem 1.5rem;
+      font-style: 1.6rem; }
+    .form-tu-thien .form_traotuthien .form_traott span {
+      font-weight: bold; }
+    .form-tu-thien .form_traotuthien .form_traott .re-require {
+      position: relative; }
+    .form-tu-thien .form_traotuthien .form_traott .require {
+      position: absolute;
+      right: 0;
+      color: red;
+      transform: translateY(-50%);
+      top: 50%; }
+    .form-tu-thien .form_traotuthien .form_traott .label-bg {
+      width: 85%;
+      padding: 1rem 1rem;
+      position: relative;
+      font-size: 1.8rem; }
+      .form-tu-thien .form_traotuthien .form_traott .label-bg:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 100%;
+        left: 100%;
+        border-top: 24px solid transparent;
+        border-bottom: 24px solid transparent;
+        border-left: 20px solid transparent; }
+    .form-tu-thien .form_traotuthien .form_traott .text-1 {
+      background-color: #ffd3ea; }
+      .form-tu-thien .form_traotuthien .form_traott .text-1:after {
+        content: "";
+        border-left: 20px solid #ffd3ea; }
+    .form-tu-thien .form_traotuthien .form_traott .text-2 {
+      background-color: #d4ffd4; }
+      .form-tu-thien .form_traotuthien .form_traott .text-2:after {
+        content: "";
+        border-left: 20px solid #d4ffd4; }
+    .form-tu-thien .form_traotuthien .form_traott .text-3 {
+      background-color: #b0eaff; }
+      .form-tu-thien .form_traotuthien .form_traott .text-3:after {
+        content: "";
+        border-left: 20px solid #b0eaff; }
+    .form-tu-thien .form_traotuthien .form_traott .input-df {
+      width: 100%;
+      color: #666;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      padding: .5rem 1.5rem;
+      font-style: italic;
+      font-size: 1.6rem; }
+
+.text-center {
+  text-align: center; }
+
+.mg-y3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.px-3 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media only screen and (max-width: 991px) {
+  .form-group .label-bg {
+    width: 100% !important;
+    margin: 3rem 0 !important;
+    text-align: center; }
+  .label-bg:after {
+    border-top: 12px solid transparent !important;
+    border-left: 20px solid transparent !important;
+    left: 50% !important;
+    border-right: 20px solid transparent !important;
+    top: 100% !important;
+    margin-left: -25px !important; }
+  .text-3:after {
+    border-top: 12px solid #b0eaff !important; }
+  .text-1:after {
+    border-top: 12px solid #ffd3ea !important; }
+  .text-2:after {
+    border-top: 12px solid #d4ffd4 !important; } }
+
+.choose-file {
+  position: relative;
+  margin: .5rem 0; }
+  .choose-file input {
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer; }
+  .choose-file a {
+    text-align: right;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    pointer-events: none; }
+    .choose-file a img {
+      height: 30px;
+      width: 30px; }
+
+.align-baseline {
+  align-items: baseline !important; }
+
+.footer-form {
+  margin: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.btn-back {
+  margin: 1rem 2rem;
+  padding: 1rem 3rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #00ff2a;
+  color: #fff;
+  transition: all .3s ease;
+  cursor: pointer; }
+  .btn-back:hover, .btn-back:focus {
+    background-color: #02c021;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease; }
+
+.btn-dangky {
+  margin: 1rem 2rem;
+  padding: 1rem 3rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  transition: all .3s ease;
+  cursor: pointer; }
+  .btn-dangky:hover, .btn-dangky:focus {
+    background-color: #0367d3;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease; }
