@@ -1,77 +1,131 @@
 .form-tu-thien {
-  padding: 0 1.5rem; }
-  .form-tu-thien .title {
-    margin-top: 3rem;
-    margin-bottom: 6rem;
-    width: 100%;
-    overflow: hidden;
-    position: relative; }
-    .form-tu-thien .title h1 {
-      font-size: 3.5rem;
-      color: #666;
-      font-weight: bold; }
+  padding: 0 1.5rem;
+  background: #959595; }
   .form-tu-thien .row {
     align-items: center; }
+  .form-tu-thien .title,
+  .form-tu-thien .footer-form {
+    position: relative; }
+    .form-tu-thien .title a,
+    .form-tu-thien .footer-form a {
+      text-decoration: none;
+      color: black;
+      background-color: #fff;
+      padding: 8px 15px;
+      border-radius: 15px;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-family: sans-serif;
+      font-weight: bold; }
+    .form-tu-thien .title .text-left,
+    .form-tu-thien .footer-form .text-left {
+      margin-left: 7rem; }
+    .form-tu-thien .title .text-right,
+    .form-tu-thien .footer-form .text-right {
+      margin-right: 4rem; }
+    .form-tu-thien .title h1,
+    .form-tu-thien .footer-form h1 {
+      position: absolute;
+      width: 100%;
+      background-color: #005100;
+      color: white;
+      padding: 22px 0;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 26px; }
+    .form-tu-thien .title .icon-right,
+    .form-tu-thien .footer-form .icon-right {
+      left: 3.5rem;
+      top: 2.5rem;
+      border-radius: 0 6px 6px 0; }
+      .form-tu-thien .title .icon-right::before,
+      .form-tu-thien .footer-form .icon-right::before {
+        content: '';
+        position: absolute;
+        right: 2px;
+        top: 98%;
+        border-style: solid;
+        border-width: 34px 33px 38px 0px;
+        border-color: #072601 transparent transparent; }
+    .form-tu-thien .title .icon-left,
+    .form-tu-thien .footer-form .icon-left {
+      right: 3.5rem;
+      bottom: 2.5rem;
+      border-radius: 6px 0 0 6px;
+      display: flex;
+      justify-content: space-between; }
+      .form-tu-thien .title .icon-left::before,
+      .form-tu-thien .footer-form .icon-left::before {
+        content: '';
+        position: absolute;
+        left: 2px;
+        bottom: 98%;
+        border-style: solid;
+        border-width: 34px 0px 38px 33px;
+        border-color: transparent transparent #072601; }
   .form-tu-thien .form_traotuthien {
     background-size: cover;
     padding: 4rem 3rem;
     background-attachment: fixed; }
     .form-tu-thien .form_traotuthien .form-group {
       margin: 2rem 0; }
-    .form-tu-thien .form_traotuthien .form_traott .custom-select-tt {
-      width: 100%;
-      border: 1px solid #ccc;
-      color: #666;
-      background-color: #fff;
-      padding: .5rem 1.5rem;
-      font-style: 1.6rem; }
-    .form-tu-thien .form_traotuthien .form_traott span {
-      font-weight: bold; }
-    .form-tu-thien .form_traotuthien .form_traott .re-require {
-      position: relative; }
-    .form-tu-thien .form_traotuthien .form_traott .require {
-      position: absolute;
-      right: 0;
-      color: red;
-      transform: translateY(-50%);
-      top: 50%; }
-    .form-tu-thien .form_traotuthien .form_traott .label-bg {
-      width: 85%;
-      padding: 1rem 1rem;
-      position: relative;
-      font-size: 1.8rem; }
-      .form-tu-thien .form_traotuthien .form_traott .label-bg:after {
-        content: "";
+    .form-tu-thien .form_traotuthien .form_traott {
+      padding: 140px 3rem 180px;
+      background: white; }
+      .form-tu-thien .form_traotuthien .form_traott .custom-select-tt {
+        width: 100%;
+        border: 1px solid #ccc;
+        color: #666;
+        background-color: #fff;
+        padding: .5rem 1.5rem;
+        font-style: 1.6rem; }
+      .form-tu-thien .form_traotuthien .form_traott span {
+        font-weight: bold; }
+      .form-tu-thien .form_traotuthien .form_traott .re-require {
+        position: relative; }
+      .form-tu-thien .form_traotuthien .form_traott .require {
         position: absolute;
-        top: 0;
-        height: 100%;
-        left: 100%;
-        border-top: 24px solid transparent;
-        border-bottom: 24px solid transparent;
-        border-left: 20px solid transparent; }
-    .form-tu-thien .form_traotuthien .form_traott .text-1 {
-      background-color: #ffd3ea; }
-      .form-tu-thien .form_traotuthien .form_traott .text-1:after {
-        content: "";
-        border-left: 20px solid #ffd3ea; }
-    .form-tu-thien .form_traotuthien .form_traott .text-2 {
-      background-color: #d4ffd4; }
-      .form-tu-thien .form_traotuthien .form_traott .text-2:after {
-        content: "";
-        border-left: 20px solid #d4ffd4; }
-    .form-tu-thien .form_traotuthien .form_traott .text-3 {
-      background-color: #b0eaff; }
-      .form-tu-thien .form_traotuthien .form_traott .text-3:after {
-        content: "";
-        border-left: 20px solid #b0eaff; }
-    .form-tu-thien .form_traotuthien .form_traott .input-df {
-      width: 100%;
-      color: #666;
-      border: 1px solid #ccc;
-      background-color: #fff;
-      padding: .5rem 1.5rem;
-      font-style: italic;
-      font-size: 1.6rem; }
+        right: 0;
+        color: red;
+        transform: translateY(-50%);
+        top: 50%; }
+      .form-tu-thien .form_traotuthien .form_traott .label-bg {
+        width: 85%;
+        padding: 1rem 1rem;
+        position: relative;
+        font-size: 1.8rem; }
+        .form-tu-thien .form_traotuthien .form_traott .label-bg:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          height: 100%;
+          left: 100%;
+          border-top: 24px solid transparent;
+          border-bottom: 24px solid transparent;
+          border-left: 20px solid transparent; }
+      .form-tu-thien .form_traotuthien .form_traott .text-1 {
+        background-color: #ffd3ea; }
+        .form-tu-thien .form_traotuthien .form_traott .text-1:after {
+          content: "";
+          border-left: 20px solid #ffd3ea; }
+      .form-tu-thien .form_traotuthien .form_traott .text-2 {
+        background-color: #d4ffd4; }
+        .form-tu-thien .form_traotuthien .form_traott .text-2:after {
+          content: "";
+          border-left: 20px solid #d4ffd4; }
+      .form-tu-thien .form_traotuthien .form_traott .text-3 {
+        background-color: #b0eaff; }
+        .form-tu-thien .form_traotuthien .form_traott .text-3:after {
+          content: "";
+          border-left: 20px solid #b0eaff; }
+      .form-tu-thien .form_traotuthien .form_traott .input-df {
+        width: 100%;
+        color: #666;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        padding: .5rem 1.5rem;
+        font-style: italic;
+        font-size: 1.6rem; }
 
 .text-center {
   text-align: center; }
@@ -128,40 +182,26 @@
 .align-baseline {
   align-items: baseline !important; }
 
-.footer-form {
-  margin: 3rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+@media (max-width: 768px) {
+  .icon-right {
+    left: 0 !important;
+    border-radius: 0 !important; }
+    .icon-right::before {
+      display: none; }
+  .footer-form .icon-left {
+    right: 0 !important;
+    border-radius: 0 !important;
+    flex-direction: column;
+    justify-content: space-between; }
+    .footer-form .icon-left::before {
+      display: none; }
+    .footer-form .icon-left a {
+      margin: auto !important; }
+    .footer-form .icon-left .text-right {
+      margin-top: 7px !important; } }
 
-.btn-back {
-  margin: 1rem 2rem;
-  padding: 1rem 3rem;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background-color: #00ff2a;
-  color: #fff;
-  transition: all .3s ease;
-  cursor: pointer; }
-  .btn-back:hover, .btn-back:focus {
-    background-color: #02c021;
-    outline: none;
-    color: #fff;
-    text-decoration: none;
-    transition: all .3s ease; }
-
-.btn-dangky {
-  margin: 1rem 2rem;
-  padding: 1rem 3rem;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background-color: #007bff;
-  color: #fff;
-  transition: all .3s ease;
-  cursor: pointer; }
-  .btn-dangky:hover, .btn-dangky:focus {
-    background-color: #0367d3;
-    outline: none;
-    color: #fff;
-    text-decoration: none;
-    transition: all .3s ease; }
+@media (max-width: 576px) {
+  .form_traott {
+    padding: 140px 0rem 180px !important; }
+  .form-tu-thien {
+    background: white !important; } }
