@@ -204,4 +204,17 @@
   .form_traott {
     padding: 140px 0rem 180px !important; }
   .form-tu-thien {
-    background: white !important; } }
+    background: white !important; }
+  .form-tu-thien .form_traotuthien {
+    padding: 4rem 0rem !important; } }
+
+.tab-content#myTabContent {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 11px 15px 13px -3px #787878;
+  -moz-box-shadow: 11px 15px 13px -3px #787878;
+  box-shadow: 11px 15px 13px -3px #787878;
+  padding: 0 2rem;
+  background: #fdb6b6; }
+
+.nav-tabs .nav-link {
+  background: #eeeeee; }
