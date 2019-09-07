@@ -1013,7 +1013,8 @@ body, td, th, input, button {
   -moz-box-shadow: 11px 15px 13px -3px #787878;
   box-shadow: 11px 15px 13px -3px #787878;
   padding: 0 2rem;
-  background: #fdb6b6; }
+  background: #fdb6b6;
+  margin-bottom: 4rem !important; }
 
 .nav-tabs .nav-link {
   background: #eeeeee; }
